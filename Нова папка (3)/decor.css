@@ -1,0 +1,23 @@
+body{
+    background-size: 100% ;
+}
+
+h1{
+    margin: 20%;
+    font-size: 200px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: transparent;
+    background: url(/img/25.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: moving 20s linear infinite;
+}
+@keyframes moving {
+    from{
+        background-position:0% 50%;
+    }
+    to{
+        background-position:100% 100%;
+    }
+}
